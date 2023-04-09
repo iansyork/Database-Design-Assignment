@@ -1,0 +1,2 @@
+To add multiple playlists for a user in v2, I would have to remove the foreign key of user_id from the playlist table. A new table could be created that maps the users to playlists instead.
+To change account types in v2, a column would be added to the user table that keeps track off account_type. A new accounts table could be created that holds the account description and type of the different available types of accounts.
